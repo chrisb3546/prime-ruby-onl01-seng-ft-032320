@@ -1,5 +1,8 @@
 # Add  code here!
-def prime(2)
-  if 2 
+def prime(integer)
+  if integer == 0 || integer == 1 || integer < 0
+    return false
+  end 
+    
     
 end
