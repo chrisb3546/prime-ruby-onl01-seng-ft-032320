@@ -4,7 +4,7 @@ def prime?(integer)
     return false
   end 
     ##if integer % number between 2 and integer == 0
-       (2..10).to_a.all? do |number|
+       (2..integer-1).to_a.all? do |number|
           integer % number != 0
            
          
