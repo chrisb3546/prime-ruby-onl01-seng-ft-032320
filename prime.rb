@@ -4,8 +4,12 @@ def prime?(integer)
     return false
   end 
     ##if integer % number between 2 and integer == 0
-      if integer %  (2..10).to_a.each do |number|
+       (2..10).to_a.all? do |number|
+         if integer % number == 0
+           return false
+         end 
+       end
 
-      return false
+      ##return false
     
 end
