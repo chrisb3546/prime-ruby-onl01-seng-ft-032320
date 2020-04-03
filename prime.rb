@@ -5,9 +5,9 @@ def prime?(integer)
   end 
     ##if integer % number between 2 and integer == 0
        (2..10).to_a.all? do |number|
-         if integer % number == 0
-           return false
-         end 
+          integer % number !== 0
+           
+         
        end
 
       ##return false
